@@ -1,17 +1,16 @@
 package week09.game;
 
-public class Player extends Sprite{
 
+//20190647 이용준
+public class Player extends Sprite{
     int x=0;
     int y=0;
-
     //플레이어 위치 랜덤생성
     public Player(){
         x = (int)(Math.random()*17)+1;
         y = (int)(Math.random()*8)+1;
     }
 
-    
     //플레이어 위치 이동
     void move(char c){
 

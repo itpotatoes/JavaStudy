@@ -1,13 +1,14 @@
 package week09.game;
-
-
 import java.util.Scanner;
 
+//20190647 이용준
 abstract class Sprite{
     int x=3, y=3;
     abstract void move(char c);
 
 }
+
+//20190647 이용준
 public class Main {
 
     //게임 영역

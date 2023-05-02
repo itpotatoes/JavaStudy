@@ -1,5 +1,7 @@
 package week09.game;
 
+
+//20190647 이용준
 public class Gold {
 
     int x;
