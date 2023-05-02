@@ -9,7 +9,7 @@ public class Gold {
 
     //골드 위치 랜덤 생성
     public Gold(){
-        x = (int)(Math.random()*17)+1;
-        y = (int)(Math.random()*8)+1;
+        x = (int)(Math.random()*16)+1;
+        y = (int)(Math.random()*7)+1;
     }
 }

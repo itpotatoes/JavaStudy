@@ -7,8 +7,8 @@ public class Monster extends Sprite {
     
     //몬스터 위치 랜덤 생성
     public Monster(){
-        x = (int)(Math.random()*17)+1;
-        y = (int)(Math.random()*8)+1;
+        x = (int)(Math.random()*16)+1;
+        y = (int)(Math.random()*7)+1;
     }
     
     //몬스터 위치 랜덤 이동

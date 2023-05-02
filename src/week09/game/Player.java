@@ -7,8 +7,8 @@ public class Player extends Sprite{
     int y=0;
     //플레이어 위치 랜덤생성
     public Player(){
-        x = (int)(Math.random()*17)+1;
-        y = (int)(Math.random()*8)+1;
+        x = (int)(Math.random()*16)+1;
+        y = (int)(Math.random()*7)+1;
     }
 
     //플레이어 위치 이동
