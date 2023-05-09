@@ -1,5 +1,7 @@
 package week10.no6;
 
+
+//20190647 이용준
 public class Rectangle implements Movable{
     int width, height;
     public void draw(){
