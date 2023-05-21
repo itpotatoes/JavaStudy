@@ -2,6 +2,8 @@ package week11.no5;
 
 import java.util.Scanner;
 
+
+//20190647 이용준
 public class Main {
     public static void main(String[] args) {
 
